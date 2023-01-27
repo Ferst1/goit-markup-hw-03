@@ -1,0 +1,207 @@
+:root {
+    --paragraf-text-color: #434455;
+    --accent-color: #ffffff;
+    --accent-focus: #4D5AE5;
+    --tittle-body-color: #2e2f42;
+    --button-color: #f4f4fd;
+    --logo-accent: #000000;
+    --second-color: #e7e9fc;
+}
+
+.body {
+    background-color: var(--accent-color);
+    color: var(--tittle-body-color);
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
+
+.hero-button {
+    color: var(--accent-color);
+    background: var(--accent-focus);
+    border-radius: 4px;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.hero {
+    background: var(--tittle-body-color);
+}
+
+.hero-h {
+
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    color: var(--accent-color);
+}
+
+.logo-link {
+    color: var(--logo-accent);
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    font-family: "Raleway";
+}
+
+.logo-link:hover,
+.logo-link:focus {
+    color: var(--accent-focus);
+}
+
+.log {
+    color: var(--accent-focus);
+}
+
+.logo-f link {
+    color: var(--logo-accent);
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+
+
+}
+
+.logo-f:active {
+    color: var(--accent-focus);
+}
+
+.contakt-link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--paragraf-text-color);
+}
+
+.contakt-nav:hover,
+.contakt-nav:focus,
+.contakt-nav.current {
+    color: var(--accent-focus);
+}
+
+.contakt-link:hover,
+.contakt-link:focus,
+.contakt-link:active {
+    color: var(--accent-focus);
+}
+
+.contakt-nav {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--tittle-body-color);
+}
+
+.site-button {
+    background: var(--button-color);
+    border: 1px solid var(--accent-color);
+    border-radius: 4px;
+    color: var(--accent-focus);
+    cursor: pointer;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: "Roboto";
+}
+
+
+.site-button:hover,
+.site-button:focus {
+    color: var(--button-color);
+
+    background-color: var(--accent-focus);
+}
+
+.site-button:active {
+    background-color: var(--accent-focus);
+    color: var(--accent-color);
+}
+
+.title-ferst {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    color: var(--tittle-body-color);
+}
+
+.title-portfolio {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: var(--tittle-body-color);
+}
+
+.title-p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: var(--tittle-body-color);
+}
+
+.paragraf {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--paragraf-text-color);
+}
+
+.footer {
+    background-color: var(--tittle-body-color);
+}
+
+.logo-f {
+    color: var(--button-color);
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    font-family: "Raleway";
+}
+
+.logo-f:hover,
+.logo-f:focus {
+    color: var(--accent-focus);
+}
+
+.footer-par {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--second-color);
+    font-weight: 400;
+}
