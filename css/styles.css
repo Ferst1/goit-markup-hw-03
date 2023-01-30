@@ -31,6 +31,11 @@
     margin: -1px;
 }
 
+.section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
 .link {
     text-decoration: none;
 }
@@ -47,10 +52,21 @@
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
+    /* text-transform: uppercase; */
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 32px;
+    padding-right: 32px;
 }
+
 
 .hero {
     background: var(--tittle-body-color);
+    display: flex;
+    /* margin: auto; */
+    padding-top: 188px;
+    padding-bottom: 188px;
+    align-content: center;
 }
 
 .hero-h {
@@ -59,6 +75,9 @@
     font-size: 56px;
     line-height: 1.07;
     color: var(--accent-color);
+    width: 500px;
+    display: flex;
+
 }
 
 .logo-link {
@@ -67,6 +86,7 @@
     font-size: 18px;
     line-height: 1.33;
     font-family: "Raleway";
+
 }
 
 .logo-link:hover,
@@ -76,6 +96,7 @@
 
 .log {
     color: var(--accent-focus);
+
 }
 
 .logo-f link {
@@ -150,6 +171,8 @@
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
+    margin-bottom: 72px;
+
 }
 
 .title {
@@ -183,6 +206,10 @@
 
 .footer {
     background-color: var(--tittle-body-color);
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+
 }
 
 .logo-f {
@@ -204,4 +231,125 @@
     letter-spacing: 0.02em;
     color: var(--second-color);
     font-weight: 400;
+    padding-left: 156px, 100px;
+
 }
+
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul,
+ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+img {
+    display: block;
+}
+
+button {
+    cursor: pointer;
+}
+
+.container {
+    width: 1158px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.container-header {
+
+    display: flex;
+    align-items: center;
+    width: 1158px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 120px;
+    padding-right: 120px;
+
+}
+
+.title-ferst {
+    background-color: var(--button-color);
+}
+
+.header-list {
+    display: flex;
+    /* margin-bottom: 120px; */
+}
+
+.header-navigation {
+    display: flex;
+    align-items: center;
+}
+
+.logo-link {
+    margin-right: 76px;
+}
+
+.header-list list {
+    display: flex;
+    /* margin-right: 40px; */
+}
+
+.header-contact:not(:last-child) {
+    margin-right: 40px;
+}
+
+.contakt-link {}
+
+/* .header-adress {
+    margin-right: 40px; */
+
+
+.adress {
+    margin-left: auto;
+}
+
+.contact-link link {
+    margin-left: auto;
+}
+
+.mail {
+    margin-right: 40px;
+}
+
+.adress {
+    display: flex;
+}
+
+.header {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.our-team {
+    background-color: #f4f4fd;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.portfolio {
+    flex-wrap: wrap;
+}
+
+.list-portfolio {}
