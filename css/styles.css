@@ -49,43 +49,48 @@
     background: var(--accent-focus);
     border-radius: 4px;
     font-family: inherit;
-    font-weight: 500;
+    font-weight: 500px;
     font-size: 16px;
     line-height: 1.5;
-    /* text-transform: uppercase; */
     padding-top: 16px;
     padding-bottom: 16px;
     padding-left: 32px;
     padding-right: 32px;
-}
+    margin-top: 59px;
 
+}
 
 .hero {
     background: var(--tittle-body-color);
-    display: flex;
-    /* margin: auto; */
+    /* display: flex; */
+    margin: auto;
     padding-top: 188px;
     padding-bottom: 188px;
-    align-content: center;
+    text-align: center;
 }
 
 .hero-h {
-
+    /* display: flex; */
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
+    letter-spacing: 0.02em;
     color: var(--accent-color);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
     width: 500px;
-    display: flex;
 
 }
+
 
 .logo-link {
     color: var(--logo-accent);
     font-weight: 800;
     font-size: 18px;
     line-height: 1.33;
-    font-family: "Raleway";
+    /* font-family: "Raleway"; */
+
 
 }
 
@@ -96,17 +101,8 @@
 
 .log {
     color: var(--accent-focus);
-
 }
 
-.logo-f link {
-    color: var(--logo-accent);
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.33;
-
-
-}
 
 .logo-f:active {
     color: var(--accent-focus);
@@ -152,6 +148,7 @@
     font-size: 16px;
     line-height: 1.5;
     font-family: "Roboto";
+    padding: 12px 24px;
 }
 
 
@@ -172,7 +169,6 @@
     font-size: 36px;
     line-height: 1.11;
     margin-bottom: 72px;
-
 }
 
 .title {
@@ -187,6 +183,7 @@
     font-size: 20px;
     line-height: 1.2;
     color: var(--tittle-body-color);
+    /* padding-top: 32px; */
 }
 
 .title-p {
@@ -194,6 +191,12 @@
     font-size: 20px;
     line-height: 1.2;
     color: var(--tittle-body-color);
+
+}
+
+.paragraf:not(:last-child) {
+    margin-right: 24px;
+
 }
 
 .paragraf {
@@ -209,7 +212,6 @@
     padding-top: 100px;
     padding-bottom: 100px;
 
-
 }
 
 .logo-f {
@@ -218,6 +220,9 @@
     font-size: 18px;
     line-height: 1.33;
     font-family: "Raleway";
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 264px;
 }
 
 .logo-f:hover,
@@ -231,8 +236,10 @@
     letter-spacing: 0.02em;
     color: var(--second-color);
     font-weight: 400;
-    padding-left: 156px, 100px;
-
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    width: 264px;
 }
 
 
@@ -274,6 +281,7 @@ button {
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
+    margin: auto;
 }
 
 .container-header {
@@ -289,12 +297,23 @@ button {
 }
 
 .title-ferst {
-    background-color: var(--button-color);
+    text-align: center;
+    margin-bottom: 72px;
+
+}
+
+.title:not(:last-child) {
+    margin-right: 24px;
+}
+
+.title {
+    box-sizing: border-box;
 }
 
 .header-list {
     display: flex;
     /* margin-bottom: 120px; */
+    /* margin-top: 120px; */
 }
 
 .header-navigation {
@@ -306,9 +325,9 @@ button {
     margin-right: 76px;
 }
 
-.header-list list {
+.header-list {
     display: flex;
-    /* margin-right: 40px; */
+    margin: auto;
 }
 
 .header-contact:not(:last-child) {
@@ -316,9 +335,6 @@ button {
 }
 
 .contakt-link {}
-
-/* .header-adress {
-    margin-right: 40px; */
 
 
 .adress {
@@ -340,16 +356,78 @@ button {
 .header {
     padding-top: 24px;
     padding-bottom: 24px;
+
 }
 
 .our-team {
     background-color: #f4f4fd;
-    padding-top: 120px;
+    margin-top: 120px;
     padding-bottom: 120px;
+
 }
 
 .portfolio {
     flex-wrap: wrap;
+    padding-bottom: 120px;
 }
 
-.list-portfolio {}
+.we-doing {
+    flex-basis: calc((100%-48px)/3);
+}
+
+.what-wedoing {
+    display: flex;
+
+}
+
+.list-portfolio:not(:nth-child(3n)) {
+    margin-right: 24px;
+}
+
+
+.list-portfolio:not(:nth-last-child(-n+3)) {
+    margin-bottom: 48px;
+}
+
+.we-doing:not(:nth-child(3n)) {
+    margin-right: 24px;
+}
+
+.team:not(:nth-child(4n)) {
+    margin-right: 24px;
+}
+
+.team {
+    flex-basis: calc((100%-48px)/4);
+}
+
+.button-portfolio {
+    margin-bottom: 72px;
+    margin-top: 168px;
+}
+
+.button-portfolio:not(:last-child) {
+    margin-right: 24px;
+}
+
+.border {
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: var(--second-color);
+}
+
+.cards {
+    padding-top: 32px;
+    padding-bottom: 8px;
+}
+
+.card {
+    padding-bottom: 32px;
+}
+
+.btn {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
