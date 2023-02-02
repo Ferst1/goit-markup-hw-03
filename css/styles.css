@@ -31,11 +31,6 @@
     margin: -1px;
 }
 
-.section {
-    padding-top: 120px;
-    padding-bottom: 120px;
-}
-
 .link {
     text-decoration: none;
 }
@@ -49,7 +44,7 @@
     background: var(--accent-focus);
     border-radius: 4px;
     font-family: inherit;
-    font-weight: 500px;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     padding-top: 16px;
@@ -57,6 +52,7 @@
     padding-left: 32px;
     padding-right: 32px;
     margin-top: 59px;
+    border: none;
 
 }
 
@@ -83,15 +79,12 @@
 
 }
 
-
 .logo-link {
     color: var(--logo-accent);
     font-weight: 800;
     font-size: 18px;
     line-height: 1.33;
-    /* font-family: "Raleway"; */
-
-
+    font-family: "Raleway", sans-serif;
 }
 
 .logo-link:hover,
@@ -155,8 +148,10 @@
 .site-button:hover,
 .site-button:focus {
     color: var(--button-color);
+}
 
-    background-color: var(--accent-focus);
+.background {
+    background-color: var(--second-color);
 }
 
 .site-button:active {
@@ -191,6 +186,7 @@
     font-size: 20px;
     line-height: 1.2;
     color: var(--tittle-body-color);
+    margin-bottom: 8px;
 
 }
 
@@ -220,8 +216,6 @@
     font-size: 18px;
     line-height: 1.33;
     font-family: "Raleway";
-    margin-top: 100px;
-    margin-bottom: 100px;
     width: 264px;
 }
 
@@ -289,11 +283,6 @@ button {
     display: flex;
     align-items: center;
     width: 1158px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 120px;
-    padding-right: 120px;
-
 }
 
 .title-ferst {
@@ -312,8 +301,6 @@ button {
 
 .header-list {
     display: flex;
-    /* margin-bottom: 120px; */
-    /* margin-top: 120px; */
 }
 
 .header-navigation {
@@ -359,11 +346,8 @@ button {
 
 }
 
-.our-team {
+.our-team .backgraund {
     background-color: #f4f4fd;
-    margin-top: 120px;
-    padding-bottom: 120px;
-
 }
 
 .portfolio {
@@ -430,4 +414,14 @@ button {
     margin-left: auto;
     margin-right: auto;
     justify-content: center;
+}
+
+.section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.tit-par {
+    padding-top: 32px;
+    padding: bottom 32px;
 }
